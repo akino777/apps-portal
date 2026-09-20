@@ -65,6 +65,31 @@ a {
   color: var(--accent);
 }
 
+.app-list {
+  display: grid;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.app-link {
+  display: block;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+.app-link strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.app-link span {
+  color: var(--subtext);
+}
+
 nav {
   margin-top: 32px;
   display: flex;
